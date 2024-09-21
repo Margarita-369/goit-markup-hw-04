@@ -121,7 +121,7 @@ a {
 .nav-link:focus,
 .contacts-link:hover,
 .contacts-link:focus,
-.nav-link.current {
+.na-link.current {
   color: #404bbf;
 }
 
@@ -175,8 +175,8 @@ a {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #fff;
+  text-align: center;
   margin-bottom: 48px;
 }
 
@@ -243,6 +243,18 @@ button:focus {
   width: calc((100% - 72px) / 4);
 }
 
+.advantages {
+  display: flex;
+  align-items: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+
 .headline-lower {
   font-weight: 500;
   font-size: 20px;
@@ -279,6 +291,32 @@ button:focus {
   text-align: center;
 }
 
+.team-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+  margin: 0 auto;
+  padding-top: 8px;
+}
+
+.member-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+.soc-media {
+  fill: #fff;
+}
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -288,6 +326,10 @@ button:focus {
 
 .portfolio-page {
   width: calc((100% - 48px) / 3);
+}
+
+.img-wrapper {
+  position: relative;
 }
 
 .portfolio-text {
@@ -311,6 +353,19 @@ button:focus {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  gap: 120px;
+  margin-top: 100px;
+}
+
+.footer-box {
+  display: flex;
+  align-items: flex-start;
+  width: 264px;
+  margin-left: 156px;
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -327,4 +382,42 @@ button:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  padding-bottom: 16px;
+}
+
+.footer-media {
+  display: flex;
+  flex-direction: column;
+  width: 208px;
+  height: 80px;
+  margin-left: 120px;
+  margin-bottom: 132px;
+}
+
+.icons-list {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  width: 208px;
+  height: 40px;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
 }
