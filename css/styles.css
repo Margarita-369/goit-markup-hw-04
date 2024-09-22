@@ -418,14 +418,10 @@ article {
   align-items: baseline;
   display: flex;
   gap: 120px;
-  margin-top: 100px;
 }
 
 .footer-box {
   margin-right: 120px;
-  display: flex;
-  align-items: flex-start;
-  width: 264px;
   margin-left: 156px;
 }
 
@@ -434,8 +430,12 @@ article {
   margin-bottom: 16px;
 }
 
-.footer-logo .logo-part {
+.footer-logo.logo-part {
   color: #5454c2;
+}
+
+.logo-part {
+  color: #f4f4fd;
 }
 
 .footer-text {
@@ -488,4 +488,5 @@ article {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-}
+  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+ }
