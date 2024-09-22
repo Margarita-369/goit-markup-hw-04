@@ -156,11 +156,13 @@ a {
 
 .section.slogan-board {
   padding: 188px 0;
-  background-color: #2e2f42;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
     url(../images/people.office.jpg);
   max-width: 1440px;
 }
