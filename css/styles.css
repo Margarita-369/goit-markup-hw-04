@@ -165,6 +165,7 @@ a {
     ),
     url(../images/people-office.jpg);
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .main-headline {
@@ -306,6 +307,7 @@ button:focus {
 
 .team-article {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-icons {
@@ -408,7 +410,7 @@ article {
 
 /* footer styles */
 
-.page-footer {
+.footer-page {
   background: #2e2f42;
   padding: 100px 0;
 }
@@ -416,8 +418,6 @@ article {
 .footer-container {
   align-items: baseline;
   display: flex;
-  gap: 120px;
-  margin-left: 156px;
 }
 
 .footer-box {
