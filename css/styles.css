@@ -303,6 +303,7 @@ button:focus {
 
 .team-headline-lower {
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .team-article {
@@ -312,14 +313,8 @@ button:focus {
 
 .team-icons {
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: row;
   gap: 24px;
-  width: 232px;
-  height: 40px;
-  margin: 0 auto;
-  padding-top: 8px;
 }
 
 .member-media {
